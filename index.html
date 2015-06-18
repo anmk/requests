@@ -1,0 +1,56 @@
+
+<!--
+	$Id: index.html, v 1.0
+	Displaying Requests
+	@author Andrzej Kałowski
+	@link http://projects.kalowski.com/requests/
+-->
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+
+	<title>Requests</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="The display of queries" />
+	<meta name="author" content="Andrzej Kałowski" />
+	<!-- CSS files -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<!-- Andika font -->
+	<link href="http://fonts.googleapis.com/css?family=Andika&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+
+	<div class="" id="mainContainer">
+		<header class="textCnt" id="header">
+			<h4 class="top">Requests</h4>
+		</header>
+
+		<section class="textCnt" id="buttons">
+			<button id="start" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Start the requests"><span class="glyphicon glyphicon-play"></span></button>
+			<button id="pause" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Pause the requests"><span class="glyphicon glyphicon-pause"></span></button>
+			<button id="reset" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Reset the number"><span class="glyphicon glyphicon-refresh"></span></button>
+		</section>
+
+		<section id="top">
+			<h6 class="textCnt" id="author">Author: Andrzej Kałowski, contact: a.m.kalowski@gmail.com, used: ServerApp (Xtrack.com).</h6>
+			<div class="textCnt centerWidth statusDefault" id="info">Requests are stopped</div>
+			<div class="textCnt" id="requestKey"></div>
+			<ul class="data" id="list"></ul>
+		</section>
+	</div>
+	<!-- JS files -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+
+</body>
+</html>
