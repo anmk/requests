@@ -1,0 +1,122 @@
+/*
+ * $Id: style.css, v 1.0
+ * Displaying Requests
+ * @author Andrzej Kałowski
+ * @link http://projects.kalowski.com/requests/
+ */
+
+/* Typography ########################### */
+h1,h2,h3,h4,h5,h6{
+		font-family: 'Andika', sans-serif;
+		color: #808080;
+		font-weight: 300;
+		}
+h1{
+		font-size:  6rem;
+		}
+h2{
+		font-size:  5rem;
+		}
+h3{
+		font-size:  4rem;
+		}
+h4{
+		font-size:  3rem;
+		}
+h5{
+		font-size:  2rem;
+		}
+h6{
+		font-size:  1rem;
+		}
+
+/* Main ################################## */
+body {
+		font-family: 'Andika', sans-serif;
+		padding-top: 10px;
+		}
+.top {
+		font-weight: bold;
+		}
+.centerWidth {
+		width: 50%;
+  		margin: 0 auto;
+		}
+.textCnt {
+		text-align: center;
+		}
+.data {
+		color: #808080;
+		font-size: 90%;
+		text-align: left;
+		}
+
+/* Buttons ################################ */
+.btn-default {
+		color: #748061;
+		background-color: #cce0ab;
+		border-color: #748061;
+		}
+.btn-default:hover,
+.btn-default:focus,
+.open > .dropdown-toggle.btn-default {
+		color: #fffff0;
+		background-color: #a0b086;
+		border-color: #748061;
+		}
+
+/* Status ############################### */
+.statusPlay {
+		color: #748061;
+		background-color: #cce0ab;
+		border-color: #748061;
+		border: 1px solid;
+		border-radius: 4px;
+		text-align: center;
+		width: 250px;
+		padding: 0.4rem;
+		margin-bottom: 2rem;
+		}
+.statusPause {
+		color: #8b4513;
+		background-color: #f0e68c;
+		border-color: #8b4513;
+		border: 1px solid;
+		border-radius: 4px;
+		text-align: center;
+		width: 250px;
+		padding: 0.4rem;
+		margin-bottom: 2rem;
+		}
+.statusReset {
+		color: #8b0000;
+		background-color: #ffcdcb;
+		border-color: #8b0000;
+		border: 1px solid;
+		border-radius: 4px;
+		text-align: center;
+		width: 250px;
+		padding: 0.4rem;
+		margin-bottom: 2rem;
+		}
+.statusDefault {
+		color: #808080;
+		background-color: #d3d3d3;
+		border-color: #808080;
+		border: 1px solid;
+		border-radius: 4px;
+		text-align: center;
+		width: 250px;
+		padding: 0.4rem;
+		margin-bottom: 2rem;
+		}
+.alreadyOn {
+		color: #ff0000;
+		border-color: #ff0000;
+		text-align: center;
+		}
+
+/* Background ########################### */
+body {
+		background: #fffff0;
+		}
