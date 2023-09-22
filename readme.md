@@ -1,4 +1,4 @@
-# Displaying Requests
+# Requests
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/anmk/requests?style=plastic)
 
